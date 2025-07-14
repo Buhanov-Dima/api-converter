@@ -1,2 +1,2 @@
 # api-converter
-Convert .docx to pdf
+Convert docx to pdf
