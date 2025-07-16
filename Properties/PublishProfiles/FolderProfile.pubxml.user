@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>\\192.168.0.114\www\api-converter</_PublishTargetUrl>
+    <History>True|2025-07-16T07:53:41.1112390Z||;False|2025-07-16T12:53:28.0716354+05:00||;True|2025-07-16T12:38:28.4155288+05:00||;False|2025-07-16T12:38:18.7565748+05:00||;True|2025-07-16T11:58:39.7752715+05:00||;False|2025-07-16T11:53:26.5690557+05:00||;True|2025-07-16T11:47:06.7097554+05:00||;True|2025-07-16T10:12:45.3018128+05:00||;True|2025-07-14T23:15:05.1086650+05:00||;False|2025-07-14T23:12:56.8311028+05:00||;False|2025-07-14T23:07:51.3600642+05:00||;True|2025-07-14T22:10:36.3206474+05:00||;False|2025-07-14T22:09:38.4654239+05:00||;True|2025-07-14T16:48:48.5105290+05:00||;False|2025-07-14T16:48:02.2030736+05:00||;False|2025-07-14T16:47:15.7143141+05:00||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+</Project>

@@ -60,6 +60,7 @@ namespace api_converter.Controllers
             // Создаём запись о PDF
             var pdfRecord = new FileModels
             {
+                Title = Path.GetFileNameWithoutExtension(inputPath),
                 PathToFile = outputPath
             };
 

@@ -24,11 +24,19 @@ namespace api_converter
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+            var swaggerEnabled = builder.Configuration.GetValue<bool>("Swagger:Enabled");
+            if (swaggerEnabled)
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.MapGet("/", context =>
+            {
+                context.Response.Redirect("/swagger", permanent: false);
+                return Task.CompletedTask;
+            });
+
 
             app.UseHttpsRedirection();
 
